@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Logo of Site -->
+    <link rel="icon" type="image/png" href="../Images/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حجز موعد</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <!-- Main template CSS File -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- Font Awesome Libary -->
+    <link rel="stylesheet" href="../CSS/all.min.css">
+</head>
+<body dir="rtl">
+    <!-- Start Header -->
+    <div class="header">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <img src="../Images/logo.png" alt="Notre Logo">
+                <h2>جراحة <span class="main-color">الأسنان</span></h2>
+            </a>
+			<div class="setting-box">
+                <i class="setting fa-solid fa-gear"></i>
+                <div class="setting-menu">
+                    <div class="colors">
+                        <h3>اللون الرئيسي</h3>
+                        <ul class="colors-menu">
+                            <li style="--clr:#0277bc" class="active" data-maincolor="#0277bc" data-seccolor="#3da0db"></li>
+                            <li style="--clr:#37a5a5" data-maincolor="#37a5a5" data-seccolor="#3bd7d7"></li>
+                            <li style="--clr:#3d45a7" data-maincolor="#3d45a7" data-seccolor="#515de9"></li>
+                            <li style="--clr:#5405f1" data-maincolor="#5405f1" data-seccolor="#723ddb"></li>
+                            <li style="--clr:#479f56" data-maincolor="#479f56" data-seccolor="#38d953"></li>
+                        </ul>
+                    </div>
+					<div class="mood">
+                        <h3>الوضع الليلي</h3>
+                        <div class="moods">
+                            <i data-mood="night" class="fa-solid fa-moon"></i>
+                            <i data-mood="suny" class="active fa-solid fa-sun"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <i class="open-icon fa-solid fa-bars"></i>
+            <div class="main-nav">
+                <i class="close fa-regular fa-circle-xmark"></i>
+                <ul class="nav">
+                    <li><a href="../index.html">خدماتنا</a></li>
+                    <li><a href="../index.html">الحجز</a></li>
+                    <li><a href="../index.html">أطبائنا</a></li>
+                    <li><a href="../index.html">الأراء</a></li>
+                </ul>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <a class="contact" href="../index.html">اتصل بنا</a>
+        </div>
+    </div>
+    <!-- End Header -->
+	<section class="reserve">
+		<h3 class="main-title">حجز موعد</h3>
+		<div class="container">
+			<div class="backg">
+				<!-- <img src="../Images/background.jpg" alt=""> -->
+			</div>
+			<form action="">
+				<div class="name">
+					<label for="">الاسم</label>
+					<div class="input">
+						<i class="fa-solid fa-pen-clip"></i>
+						<input type="text" name="" id="" required>
+					</div>
+				</div>
+				<div class="family">
+					<label for="">اللقب</label>
+					<div class="input">
+						<i class="fa-solid fa-pen-clip"></i>
+						<input type="text" name="" id="" required>
+					</div>
+				</div>
+				<div class="birthday">
+					<label for="">تاريخ الميلاد</label>
+					<div class="input">
+						<!-- <i class="fa-solid fa-calendar-days"></i> -->
+						<input type="date" name="" id="" required>
+					</div>
+				</div>
+				<div class="wilaya">
+					<label for="">ولاية السكن</label>
+					<div class="input">
+						<i class="fa-brands fa-fort-awesome"></i>
+						<input type="text" name="" id="" required>
+					</div>
+				</div>
+				<div class="phone">
+					<label for="">رقم الهاتف</label>
+					<div class="input">
+						<i class="fa-solid fa-phone"></i>
+						<input type="tel" name="" id="" required>
+					</div>
+				</div>
+				<div class="service-want">
+					<div class="right">
+						<div class="ser-one">
+							<input type="checkbox" name="" id="one">
+							<label for="one">نزع سن أو ضرس</label>
+						</div>
+						<div class="ser-two">
+							<input type="checkbox" name="" id="two">
+							<label for="two">تقويم الأسنان</label>
+						</div>
+					</div>
+					<div class="left">
+						<div class="ser-three">
+							<input type="checkbox" name="" id="three">
+							<label for="three">تنظيف الأسنان</label>
+						</div>
+						<div class="ser-foor">
+							<input type="checkbox" name="" id="foor">
+							<label for="foor">تركيب الأسنان والضروس</label>
+						</div>
+					</div>
+				</div>
+				<div class="envoiyer">
+					<input type="submit" value="حجز موعد">
+					<a href="../index.html"><i class="fa-solid fa-arrow-rotate-left"></i> الرئيسية</a>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- Start Footer -->
+	<footer>
+			<a href="#" class="logo">
+				<img src="../Images/logo.png" alt="Notre Logo">
+				<h2>جراحة <span class="main-color">الأسنان</span></h2>
+			</a>
+			<div class="container">
+				<div class="about">
+					<h3>معلومات عنا</h3>
+					<p>عيادتنا لجراحة الأسنان تم تأسيسها منذ سبعة سنوات من طرف الجراح اسحاق بن فرج وقد حصلنا على تقييم سبعة نجوم</p>
+					<div class="social-icon">
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+						<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+				</div>
+				<div class="contactus">
+					<h3>التواصل معنا</h3>
+					<a href="tel:05417902**"><i class="fa-solid fa-phone"></i> ** 02 79 41 05</a>
+					<a href="mailto:ishakbanfradje@gmail.com"><i class="fa-solid fa-envelope"></i> ishakbanfradje@gmail.com</a>
+					<a href="https://www.google.com/maps/place/El+Karimia/@36.0772254,1.4453994,11z/data=!3m1!4b1!4m5!3m4!1s0x12843d1b828a9469:0xa2b5483c231cd7a!8m2!3d36.111108!4d1.5535633?hl=FR"><i class="fa-solid fa-map-location"></i> ولاية الشلف بالكريمية حرشون</a>
+					<a href="#"><i class="fa-regular fa-clock"></i> الثامنة صباحا إلى السادسة مساءا</a>
+				</div>
+				<div class="short">
+					<h3>روابط مختصرة</h3>
+					<div class="links">
+						<a href="../index.html">الرئيسية</a>
+						<a href="../index.html">الحجز</a>
+						<a href="../index.html">خدماتنا</a>
+						<a href="../index.html">أطبائنا</a>
+						<a href="../index.html">الأراء</a>
+						<a href="../index.html">اتصل بنا</a>
+					</div>
+				</div>
+				<div class="gallery">
+					<h3>معرض الصور</h3>
+					<div class="imgs-sec">
+						<div>
+							<img src="../Images/1.jpg" alt="">
+							<img src="../Images/2.jfif" alt="">
+							<img src="../Images/3.jpg" alt="">
+						</div>
+						<div>
+							<img src="../Images/4.png" alt="">
+							<img src="../Images/5.jfif" alt="">
+							<img src="../Images/6.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+	</footer>
+	<div class="made">تم تصميم الموقع وإنشائه من طرف <span>إسحاق بن فرج</span> <i class="fa-solid fa-heart"></i></div>
+	<!-- End Footer -->
+
+	<!-- JavaScript -->
+	<script src="../javascript/java.js"></script>
+</body>
+</html>

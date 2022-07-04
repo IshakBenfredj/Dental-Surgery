@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Logo of Site -->
+    <link rel="icon" type="image/png" href="Images/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentiste Cabine</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- Main template CSS File -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Font Awesome Libary -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+</head>
+<body dir="rtl">
+    <!-- Start Header -->
+    <div class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="Images/logo.png" alt="Notre Logo">
+                <h2>جراحة <span class="main-color">الأسنان</span></h2>
+            </a>
+            <div class="setting-box">
+                <i class="setting fa-solid fa-gear"></i>
+                <div class="setting-menu">
+                    <div class="colors">
+                        <h3>اللون الرئيسي</h3>
+                        <ul class="colors-menu">
+                            <li style="--clr:#0277bc" class="active" data-maincolor="#0277bc" data-seccolor="#3da0db"></li>
+                            <li style="--clr:#37a5a5" data-maincolor="#37a5a5" data-seccolor="#3bd7d7"></li>
+                            <li style="--clr:#3d45a7" data-maincolor="#3d45a7" data-seccolor="#515de9"></li>
+                            <li style="--clr:#5405f1" data-maincolor="#5405f1" data-seccolor="#723ddb"></li>
+                            <li style="--clr:#479f56" data-maincolor="#479f56" data-seccolor="#38d953"></li>
+                        </ul>
+                    </div>
+                    <div class="mood">
+                        <h3>الوضع الليلي</h3>
+                        <div class="moods">
+                            <i data-mood="night" class="fa-solid fa-moon"></i>
+                            <i data-mood="suny" class="active fa-solid fa-sun"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <i class="open-icon fa-solid fa-bars"></i>
+            <div class="main-nav">
+                <i class="close fa-regular fa-circle-xmark"></i>
+                <ul class="nav">
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="html/reserved.html">الحجز</a></li>
+                    <li><a href="#doctors">أطبائنا</a></li>
+                    <li><a href="#testimonials">الأراء</a></li>
+                </ul>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <a class="contact" href="#contact">اتصل بنا</a>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start Landing -->
+    <div class="landing" id="landing">
+        <div class="container">
+            <div class="text-content">
+                <h3>الدكتور <span class="main-color">إسحاق بن فرج</span> في خدمتكم</h3>
+                <p>عيادتنا لجراحة الأسنان توفر لكم العديد من الخدمات وذلك من أجل راحتكم والتخفيف من ألامكم ، فقط قم بحجز موعد</p>
+                <div class="links">
+                    <a href="html/reserved.html">حجز موعد</a>
+                    <a href="#services">خدماتنا</a>
+                </div>
+            </div>
+            <img src="Images/land.png" alt="">
+        </div>
+    </div>
+    <!-- End Landing -->
+
+    <!-- Start Services -->
+    <section class="services" id="services">
+        <h3 class="main-title">خدماتنا</h3>
+        <div class="container">
+            <div class="service">
+                <img src="Images/remove.png">
+                <div class="info">
+                    <h3>نزع الأسنان والضروس</h3>
+                    <div class="price">السعر: <span>1500</span></div>
+                </div>
+                <div class="plus">
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="Images/salk.png">
+                <div class="info">
+                    <h3>تقويم الأسنان</h3>
+                    <div class="price">السعر: <span>11500</span></div>
+                </div>
+                <div class="plus">
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="Images/clean.png">
+                <div class="info">
+                    <h3>تنظيف الأسنان</h3>
+                    <div class="price">السعر: <span>2000</span></div>
+                </div>
+                <div class="plus">
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="Images/tarkib.png">
+                <div class="info">
+                    <h3>تركيب الأسنان والضروس</h3>
+                    <div class="price">السعر: <span>11500</span></div>
+                </div>
+                <div class="plus">
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+
+    <!-- Start Our Doctors -->
+    <section class="doctors" id="doctors">
+        <h3 class="main-title">أطبائنا</h3>
+        <div class="container">
+            <div class="doctor">
+                <div class="img">
+                    <img src="Images/doc1.jpg" alt="doc1">
+                </div>
+                <div class="doc-info">
+                    <div class="name">
+                        <span>الاسم :</span>
+                        <span>مروى</span>
+                    </div>
+                    <div class="nom">
+                        <span>اللقب :</span>
+                        <span>جراح</span>
+                    </div>
+                    <div class="expr">
+                        <span>الخبرة :</span>
+                        <span>8 سنوات</span>
+                    </div>
+                    <div class="expr">
+                        <span>التقييم :</span>
+                        <span>10 / 10</span>
+                    </div>
+                    <div class="doc-contact">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor">
+                <div class="img">
+                    <img src="Images/doc2.jpg" alt="doc1">
+                </div>
+                <div class="doc-info">
+                    <div class="name">
+                        <span>الاسم :</span>
+                        <span>جاك</span>
+                    </div>
+                    <div class="nom">
+                        <span>اللقب :</span>
+                        <span>شيبرد</span>
+                    </div>
+                    <div class="expr">
+                        <span>الخبرة :</span>
+                        <span>11 سنة</span>
+                    </div>
+                    <div class="expr">
+                        <span>التقييم :</span>
+                        <span>10 / 10</span>
+                    </div>
+                    <div class="doc-contact">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor">
+                <div class="img">
+                    <img src="Images/doc3.jpg" alt="doc1">
+                </div>
+                <div class="doc-info">
+                    <div class="name">
+                        <span>الاسم :</span>
+                        <span>سوير</span>
+                    </div>
+                    <div class="nom">
+                        <span>اللقب :</span>
+                        <span>جيمس</span>
+                    </div>
+                    <div class="expr">
+                        <span>الخبرة :</span>
+                        <span>15 سنة</span>
+                    </div>
+                    <div class="expr">
+                        <span>التقييم :</span>
+                        <span>10 / 10</span>
+                    </div>
+                    <div class="doc-contact">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Doctors -->
+
+    <!-- Start Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <h3 class="main-title">الأراء</h3>
+        <div class="container">
+            <div class="testimonial">
+                <img src="Images/testi1.jpg" alt="testimonial">
+                <div class="compte">
+                    <h2>جون لوك</h2>
+                    <div class="addr">@john_lock</div>
+                </div>
+                <p><i class="right fa-solid fa-quote-right"></i>عيادتكم رائعة حقا ، أنا سعيد جدا لإختياري القدوم إليكم ، فقد أعجبتني خدماتكم وطريقة تعاملكم حتى أن الأسعار منخفضة ومساعدة<i class="left fa-solid fa-quote-left"></i></p>
+            </div>
+            <div class="testimonial">
+                <img src="Images/testi2.jpg" alt="testimonial">
+                <div class="compte">
+                    <h2>تومي شيلبي</h2>
+                    <div class="addr">@tomy_chilby</div>
+                </div>
+                <p><i class="right fa-solid fa-quote-right"></i>عيادتكم رائعة حقا ، أنا سعيد جدا لإختياري القدوم إليكم ، فقد أعجبتني خدماتكم وطريقة تعاملكم حتى أن الأسعار منخفضة ومساعدة<i class="left fa-solid fa-quote-left"></i></p>
+            </div>
+            <div class="testimonial">
+                <img src="Images/testi3.jpg" alt="testimonial">
+                <div class="compte">
+                    <h2>سعيد جراح</h2>
+                    <div class="addr">@said_djarah</div>
+                </div>
+                <p><i class="right fa-solid fa-quote-right"></i>عيادتكم رائعة حقا ، أنا سعيد جدا لإختياري القدوم إليكم ، فقد أعجبتني خدماتكم وطريقة تعاملكم حتى أن الأسعار منخفضة ومساعدة<i class="left fa-solid fa-quote-left"></i></p>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials -->
+
+    <!-- Start Contact -->
+    <section class="contact" id="contact">
+        <h3 class="main-title">اتصل بنا</h3>
+        <div class="container">
+            <div class="box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:05417902**"> 05 41 79 02 **</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:ishakbanfradje@gmail.com">ishakbanfradje@gmail.com</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i> 
+                    <a href="www.facebook.com">Chirurgie Dentaire</a>
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <i class="fa-solid fa-map-location"></i>
+                    <a href="https://www.google.com/maps/place/El+Karimia/@36.0772254,1.4453994,11z/data=!3m1!4b1!4m5!3m4!1s0x12843d1b828a9469:0xa2b5483c231cd7a!8m2!3d36.111108!4d1.5535633?hl=FR">ولاية الشلف بالكريمية حرشون</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <a href="#">@chirurgie_dentaire</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <a href="#"> @chirurgie_dentaire</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <footer>
+        <a href="#" class="logo">
+            <img src="Images/logo.png" alt="Notre Logo">
+            <h2>جراحة <span class="main-color">الأسنان</span></h2>
+        </a>
+        <div class="container">
+            <div class="about">
+                <h3>معلومات عنا</h3>
+                <p>عيادتنا لجراحة الأسنان تم تأسيسها منذ سبعة سنوات من طرف الجراح اسحاق بن فرج وقد حصلنا على تقييم سبعة نجوم</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contactus">
+                <h3>التواصل معنا</h3>
+                <a href="tel:05417902**"><i class="fa-solid fa-phone"></i> ** 02 79 41 05</a>
+                <a href="mailto:ishakbanfradje@gmail.com"><i class="fa-solid fa-envelope"></i> ishakbanfradje@gmail.com</a>
+                <a href="https://www.google.com/maps/place/El+Karimia/@36.0772254,1.4453994,11z/data=!3m1!4b1!4m5!3m4!1s0x12843d1b828a9469:0xa2b5483c231cd7a!8m2!3d36.111108!4d1.5535633?hl=FR"><i class="fa-solid fa-map-location"></i> ولاية الشلف بالكريمية حرشون</a>
+                <a href="#"><i class="fa-regular fa-clock"></i> الثامنة صباحا إلى السادسة مساءا</a>
+            </div>
+            <div class="short">
+                <h3>روابط مختصرة</h3>
+                <div class="links">
+                    <a href="#landing">الرئيسية</a>
+                    <a href="html/reserved.html">الحجز</a>
+                    <a href="#services">خدماتنا</a>
+                    <a href="#doctors">أطبائنا</a>
+                    <a href="#testimonials">الأراء</a>
+                    <a href="#contact">اتصل بنا</a>
+                </div>
+            </div>
+            <div class="gallery">
+                <h3>معرض الصور</h3>
+                <div class="imgs-sec">
+                    <div>
+                        <img src="Images/1.jpg" alt="">
+                        <img src="Images/2.jfif" alt="">
+                        <img src="Images/3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="Images/4.png" alt="">
+                        <img src="Images/5.jfif" alt="">
+                        <img src="Images/6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="made">تم تصميم الموقع وإنشائه من طرف <span>إسحاق بن فرج</span> <i class="fa-solid fa-heart"></i></div>
+    <!-- End Footer -->
+
+    <!-- JavaScript -->
+    <script src="javascript/java.js"></script>
+</body>
+</html>

@@ -96,6 +96,6 @@ document.addEventListener("click",function(e){
         }
     };
 })
-window.onscroll = function(){
-    settingMenu.classList.remove("open");
-}
+// window.onscroll = function(){
+//     settingMenu.classList.remove("open");
+// }
